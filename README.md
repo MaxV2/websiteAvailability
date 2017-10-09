@@ -7,11 +7,11 @@ Coding assignment.
 1. Run the programm from your console:
 * On Windows, open your console and type in
 ```
-python.exe C:\Users\Username\Desktop\my_python_script.py
+python.exe C:\Users\Username\Desktop\monitoring.py
 ```
 * On Mac and Linux, open your console on the right folder and type:
 ```
-python firstprogram.py
+python monitoring.py
 ```
 More info on how to run a program from your shell here: http://pythoncentral.io/execute-python-script-file-shell/
 
