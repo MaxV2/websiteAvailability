@@ -1,6 +1,8 @@
 # Website availability & performance monitoring
 Coding assignment.
 
+![](MonitoringScreenShot.png)
+
 ## How to launch the console program
 
 1. Install the libraries if needed (os, time, requests, numpy, collections)
