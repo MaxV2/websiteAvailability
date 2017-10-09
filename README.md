@@ -4,7 +4,18 @@ Coding assignment.
 ## How to launch the console program
 
 1. Install the libraries if needed (os, time, requests, numpy, collections)
-1. Run the programm from your console
+1. Run the programm from your console:
+* On Windows, open your console and type in
+```
+python.exe C:\Users\Username\Desktop\my_python_script.py
+```
+* On Mac and Linux, open your console on the right folder and type:
+```
+python firstprogram.py
+```
+More info on how to run a program from your shell here: http://pythoncentral.io/execute-python-script-file-shell/
+
+
 
 ## How to use the program
 
@@ -49,5 +60,5 @@ You can also use one of your own website and manually put it online and offline 
 * Save the data in a separate file.
 * Add a machile learning alerting solutions to detect unusual tendencies.
 * Create email/sms alerts when websites are down.
-* Make this a SaaS server and app monitoring solution, build integration for multiple platfoms, raise money, recruit hundreds of developpers.
+* Make this a SaaS server and app monitoring solution, build integration for multiple platfoms, call it 'DATACAT', raise money, recruit hundreds of developpers.
 * ...
