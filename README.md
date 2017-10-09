@@ -28,10 +28,11 @@ For each URL on the list:
 * 'Response time avrg' is the average response time of all the test performed in the time interval.
 * 'Response time max' is the maximum response time of all the test performed in the time interval.
 
-## Warnings
+## Remarks
 * If for example the program has been running for only 5min, then for instance 'Availability 10min' and 'Availability 1hour' will be equal.
 * If you have entered more than three URLs on the main menu, then the data on the console might not fit your screen.
 * If there is a response code that isn't 200 in the last 10 min then the response time is considered infinite, and 'Response time 10min avrg' will also be infinite.
+* The programm automatically deletes the data that is older than one hour (except for the alerts), so it can be left running for a long time without causing memory limit issues.
 
 
 ## How to test the program
@@ -39,3 +40,14 @@ For each URL on the list:
 One way to test the alert system is to use http://www.stackoverflow.com as an URL, and to set a 'check interval' of one second. After about two minutes, the website will temporarily block your IP address, resulting with a 'Website is down' alert.
 
 You can also use one of your own website and manually put it online and offline to test the program.
+
+
+## Possible improvements
+
+* Design a real UI instead of a console. Display real-time graphs of data.
+* Allow multithreading in order not to loose time when an URL is slow to respond.
+* Save the data in a separate file.
+* Add a machile learning alerting solutions to detect unusual tendencies.
+* Create email/sms alerts when websites are down.
+* Make this a SaaS server and app monitoring solution, build integration for multiple platfoms, raise money, recruit hundreds of developpers.
+* ...
