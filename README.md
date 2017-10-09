@@ -36,6 +36,6 @@ For each URL on the list:
 
 ## How to test the program
 
-One way to test the alert system is to use http://www.stackoverflow.com as an URL, and to set a 'check interval' of one second. After about two minutes, the website will temporarily block your IP adress, resulting with a 'Website is down' alert.
+One way to test the alert system is to use http://www.stackoverflow.com as an URL, and to set a 'check interval' of one second. After about two minutes, the website will temporarily block your IP address, resulting with a 'Website is down' alert.
 
 You can also use one of your own website and manually put it online and offline to test the program.
