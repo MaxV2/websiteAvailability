@@ -9,7 +9,7 @@ Coding assignment.
 1. Run the programm from your console:
 * On Windows, open your console and type in
 ```
-python.exe C:\Users\Username\Desktop\monitoring.py
+python.exe C:\Users\Username\PathToFile\monitoring.py
 ```
 * On Mac and Linux, open your console on the right folder and type:
 ```
